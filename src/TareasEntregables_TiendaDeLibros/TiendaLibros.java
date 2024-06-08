@@ -1,4 +1,4 @@
-package TareasEntregables_7DeAbirl2024;
+package TareasEntregables_TiendaDeLibros;
 
 public class TiendaLibros {
     String titulo;

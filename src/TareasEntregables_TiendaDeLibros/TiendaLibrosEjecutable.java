@@ -1,4 +1,4 @@
-package TareasEntregables_7DeAbirl2024;
+package TareasEntregables_TiendaDeLibros;
 
 public class TiendaLibrosEjecutable {
     public static void main(String[] args) {
