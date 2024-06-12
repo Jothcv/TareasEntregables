@@ -35,7 +35,7 @@ public class GestorAcademico implements ServiciosAcademicosI {
         if (curso != null) {
             ArrayList<Estudiante> inscritos = estudiantesPorCurso.get(curso);
             if (inscritos.contains(estudiante)) {
-                throw new EstudianteYaInscritoException("El estudiante ya está inscrito en el curso.");
+                throw new EstudianteYaInscritoException("el estudiante ya está inscrito en el curso ");
             }
             inscritos.add(estudiante);
         }
@@ -50,7 +50,7 @@ public class GestorAcademico implements ServiciosAcademicosI {
             if (inscritos.contains(estudiante)) {
                 inscritos.remove(estudiante);
             } else {
-                throw new EstudianteNoInscritoEnCursoException("El estudiante no está inscrito en el curso.");
+                throw new EstudianteNoInscritoEnCursoException("El estudiante no está inscrito en el curso ");
             }
         }
     }

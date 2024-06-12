@@ -38,12 +38,7 @@ public class Estudiante extends Persona {
 
     @Override
     public String toString() {
-        return "Estudiante{" +
-                "id=" + getId() +
-                ", nombre='" + getNombre() + '\'' +
-                ", apellido='" + getApellido() + '\'' +
-                ", fechaDeNacimiento=" + fechaDeNacimiento +
-                ", estado=" + estado +
-                '}';
+        return "                               estudiantes:       "+"\n"+
+                "id: "+getId() + "| nombre: "+getNombre() + "| apellido: "+getApellido() + "| Fecha de nacimiento: "+fechaDeNacimiento+ "| estado: "+estado;
     }
 }
