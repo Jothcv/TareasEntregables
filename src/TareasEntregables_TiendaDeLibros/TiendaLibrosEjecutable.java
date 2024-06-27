@@ -15,8 +15,5 @@ public class TiendaLibrosEjecutable {
         System.out.println("\nel mismo libro pero con mas descuento por verano ");
         TiendaLibros3.mostrarDetalles();
 
-
-
-
     }
 }
